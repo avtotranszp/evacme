@@ -1,0 +1,117 @@
+
+@media (min-width: 994px) {
+	.iivicK {
+		left: 40px;
+	}
+}
+.drKoCD video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.jLZoYp {
+    height: 500px;
+    width: 280px;
+    position: fixed;
+    bottom: 40px;
+    left: 10px;
+    box-shadow: rgb(0 0 0) 0px 0px 8px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 99999;
+    transition: all 0.3s ease-in-out 0s;
+}
+.iivicK {
+	height: calc(var(--height) - var(--height) * 0.9);
+	width: calc(var(--width) - var(--width) * 0.9);
+	position: fixed;
+	bottom: 40px;
+	box-shadow: rgb(0 0 0) 0px 0px 8px 0px;
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 99999;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.iivicK,
+.drKoCD,
+.jLZoYp {
+	--width: 1300px;
+	--height: 1800px;
+}
+.jLZoYp video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.iivicK * {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.eQMpDi {
+	display: none;
+	animation: 4s linear 0s infinite normal none running phAnimation;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: linear-gradient(to right, rgba(69, 69, 69, 0.1) 46%, rgba(255, 255, 255, 0.8) 60%, rgba(69, 69, 69, 0.1) 54%) 50% 50% / 1000px fixed rgba(0, 0, 0, 0.2);
+}
+
+.iivicK video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.iivicK .sc-AxhCb {
+	display: none;
+}
+.eSwYtm {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	opacity: 0.75;
+	transition: all 0.2s ease-in-out 0s;
+}
+.eSwYtm::before {
+	position: absolute;
+	left: 9px;
+	top: 1px;
+	content: " ";
+	height: 18px;
+	width: 2px;
+	background: none 0px 0px repeat scroll white;
+	box-shadow: rgb(0 0 0 / 50%) 1px 1px 10px;
+}
+.drKoCD .sc-AxhCb::before {
+    transform: rotate(45deg);
+}
+.jLZoYp .eSwYtm::before {
+	display: none;
+}
+.closed .eSwYtm::before, .closed .eSwYtm::after, .closed .sc-AxhCb {
+	display: block!important;
+}
+.closed .eSwYtm::after {
+	transform: rotate(-45deg);
+}
+.eSwYtm::after {
+	position: absolute;
+	left: 9px;
+	top: 1px;
+	content: " ";
+	height: 18px;
+	width: 2px;
+	background: none 0px 0px repeat scroll white;
+	box-shadow: rgb(0 0 0 / 50%) 1px 1px 10px;
+}
+.erpKPI .sc-AxhCb::after {
+	transform: rotate(90deg);
+}
+.drKoCD:hover {
+	transform: scale(1.1);
+}
+.jLZoYp .sc-AxhCb::after {
+    transform: rotate(90deg);
+}
